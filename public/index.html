@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">WELCOME</h1>
+    <p id="info">Please enter your table No:</p>
+    <div class="enter-table">
+      <input type="number" max="999" name="input-table" id="input-table" />
+      <button type="submit" onclick="submit()" id="submit">Submit</button>
+    </div>
+    <div class="popup" id="check-popup">
+      <p>Check is coming!</p>
+    </div>
+    <div class="popup" id="order-popup">
+      <p>Order is coming!</p>
+    </div>
+    <div class="btn-container">
+      <a href="menu.html" id="menu" class="btn">MENU</a>
+      <a href="#" id="order" class="btn">ORDER</a>
+      <a href="#" id="check" class="btn">CHECK</a>
+      <a href="vote.html" id="vote" class="btn">VOTE</a>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yeon Sung", cursive;
+}
+body {
+  background-image: url(./background.jpg);
+  /* background-color: #ffd1fd; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  margin-top: 30%;
+  display: block;
+  color: #6d2828;
+}
+
+.btn-container {
+  margin-top: 30%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 1.2rem 0.7rem;
+  margin: 1.6rem;
+  border-radius: 20px;
+  background-color: #faffb4;
+}
+.menu-title {
+  color: #6d2828;
+  margin-top: 2%;
+}
+#info {
+  font-style: italic;
+  color: #851e3e;
+  font-size: 1rem;
+  margin-top: 5rem;
+}
+.enter-table {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 4rem;
+  align-items: center;
+}
+#input-table {
+  height: 100%;
+  width: 50%;
+  font-size: 2.3rem;
+  background: #faffb4;
+  color: #651e3e;
+  text-align: center;
+}
+#submit {
+  width: 50%;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #651e3e;
+}
+
+.titles {
+  font-size: 1rem;
+  margin-right: 13rem;
+}
+.list-container {
+  width: 90%;
+}
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin-bottom: 0.3rem;
+}
+.element p {
+  font-size: 0.8rem;
+}
+.menu-back {
+  margin-top: 6rem;
+  padding: 1.2rem 1rem;
+}
+.popup {
+  position: absolute;
+  width: 70%;
+  height: 10%;
+  top: 50%;
+  background: #e33170;
+  opacity: 0;
+  text-align: center;
+  padding-top: 18px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  transition: all 0.25s ease-in-out;
+}
+.popup.active {
+  opacity: 0.9;
+}
+.bar {
+  position: relative;
+  margin-top: 10%;
+  width: 80%;
+  height: 50px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.bar-buttons {
+  margin-top: 1%;
+  width: 80%;
+  height: 30px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bar-buttons p {
+  cursor: pointer;
+  padding: 5px 15px 5px 15px;
+  border-radius: 50%;
+  transition: all 0.1s ease-out;
+}
+.bar-buttons p:active {
+  background: red;
+  color: white;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: red;
+  transition: all 0.2s ease;
+  border-radius: 20px;
+}
+.slide.withone {
+  width: 10%;
+}
+
+.slide.withtwo {
+  width: 30%;
+}
+
+.slide.withthree {
+  width: 50%;
+}
+
+.slide.withfour {
+  width: 70%;
+}
+
+.slide.withfive {
+  width: 100%;
+}
+.vote-title {
+  margin-top: 50%;
+}
+.vote {
+  margin-top: 3rem;
+}
